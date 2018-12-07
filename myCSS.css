@@ -1,15 +1,33 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
 body {
-	margin: 0 auto;
+	font: 100%/1.4 "Condor", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #000;
 }
+a:link {
+     color: #1B8057;
+	text-decoration: none;
+}
+a:visited {
+     color: #1B8057;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
+
+
 .homePage {
 	background: #0A449A;
 }
 .container {
+	width: 100%;
 	margin: 0 auto;
 }
 .header {
+	font-weight: 100px;
 	background: #0A449A;
 	text-align: center;
 	margin: 0px;
@@ -18,7 +36,9 @@ body {
 	width: 100%;	
 }
 .nav {
+	/*border-radius: 25px 12px 12px 12px;*/
 	background: #821214;
+	color: #9F9494;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -27,6 +47,7 @@ body {
 	text-align: center;
 }
 .content {
+	/*border-radius: 25px 12px 12px 12px;*/
 	color: black;
 	background: #9F9494;
 	margin: 0px;
@@ -34,9 +55,20 @@ body {
 	width: 100%;
 	text-align: center;
 }
+.contentContact{
+    font: 100%/1.4 "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: black;
+	background: #9F9494;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	
+}
 .footer {
+	/*border-radius: 25px 12px 12px 12px;*/
 	background: #292121;
-	color: lightgray;
+	color: #9F9494;
 	margin: 0px;
 	float: left;
 	width: 100%;
