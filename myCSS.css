@@ -48,9 +48,9 @@ a:hover, a:active, a:focus {
 }
 .content {
 	/*border-radius: 25px 12px 12px 12px;*/
-	color: black;
+	color: #9F9494;
 	
-	background: #9F9494;
+	background: #121212;
 	margin: 0px;
 	float: left;
 	width: 100%;
@@ -58,8 +58,8 @@ a:hover, a:active, a:focus {
 }
 .contentContact{
     font: 100%/1.4 "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	color: black;
-	background: #9F9494;
+	color: #9F9494;
+	background: #121212;
 	margin: 0px;
 	float: left;
 	width: 100%;
@@ -68,7 +68,7 @@ a:hover, a:active, a:focus {
 }
 .footer {
 	/*border-radius: 25px 12px 12px 12px;*/
-	background: #292121;
+	background: #121212;
 	color: #9F9494;
 	margin: 0px;
 	float: left;
