@@ -5,19 +5,18 @@ body {
      background-color: #FFFFFF;
      margin: 0;
      padding: 0;
-     color: #000;
+     color: #121212;
 }
 a:link {
-     color: #1B8057;
+     color: #121212;
 	text-decoration: none;
 }
 a:visited {
-     color: #1B8057;
+     color: #121212;
 }
 a:hover, a:active, a:focus { 
      text-decoration: underline;
 }
-
 
 .homePage {
 	background: #0A449A;
