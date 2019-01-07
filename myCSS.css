@@ -30,9 +30,9 @@ a:hover, a:active, a:focus {
 	background: #0A449A;
 	text-align: center;
 	margin: 0px;
-	padding-top: 0;
 	float: left;
-	width: 100%;	
+	width: 100%;
+	height: 150px;
 }
 .nav {
 	/*border-radius: 25px 12px 12px 12px;*/
